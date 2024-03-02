@@ -44,6 +44,10 @@ async function fetchrandomarticles(query){
 
 
 function  displaycards(articles){
+    if (!Array.isArray(articles)) {
+        console.error("Invalid articles data:", articles);
+        return; 
+        }
     cardcon.innerHTML= ""
     articles.forEach((elem) => {
         const newscrd= document.createElement("div")
