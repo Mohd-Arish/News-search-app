@@ -1,5 +1,6 @@
 News Search App
-Overview
+
+Overview:-
 This is a simple web application that allows users to search for news articles using keywords. It fetches data from the News API and displays the search results to the user.
 
 Features:-
@@ -16,3 +17,4 @@ View the search results displayed on the page.
 Click on a news article to read more details.
 
 Demo:-
+ https://mohd-arish.github.io/News-search-app/
