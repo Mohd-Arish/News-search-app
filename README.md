@@ -16,5 +16,3 @@ Press Enter or click on the search button to initiate the search.
 View the search results displayed on the page.
 Click on a news article to read more details.
 
-Demo:-
- https://mohd-arish.github.io/News-search-app/
