@@ -1,26 +1,20 @@
 const apik= "01fa1587c50e43feb0b4985200ac8c33"
-const apiurl= `https://newsapi.org/v2/top-headlines?country=in&pageSize=12`
 const cardcon= document.querySelector("#card-con")
 const searchipfield= document.querySelector("#search-input")
 const searchbtn= document.querySelector(".search-btn")
 
-async function randomnews(){
-try {
-    // const apiurl= `https://newsapi.org/v2/top-headlines?country=in&pageSize=12&apikey=${apik}`
 
-    const resp= await fetch(apiurl,{
-        headers: {
-            'Upgrade': 'HTTP/2.0',
-            'X-Api-Key': apik
-        }
-    })
-    const data= await resp.json()
-    return data.articles;
+async function randomnews(){
+    try {
+        const apiurl= `https://newsapi.org/v2/top-headlines?country=in&pageSize=12&apikey=${apik}`
+        const resp= await fetch(apiurl)
+        const data= await resp.json()
+        return data.articles;
+        
+    } catch (error) {
+        console.log("News cannot be shown right now", error) 
+        return[];
     }
-     catch (error) {
-    console.log("News cannot be shown right now", error) 
-    return[];
-}
 }
 
 searchbtn.addEventListener('click', async()=>{
@@ -51,10 +45,6 @@ async function fetchrandomarticles(query){
 
 
 function  displaycards(articles){
-    if (!Array.isArray(articles)) {
-        console.error("Invalid articles data:", articles);
-        return; 
-    }
     cardcon.innerHTML= ""
     articles.forEach((elem) => {
         const newscrd= document.createElement("div")
