@@ -1,4 +1,4 @@
-News Search App
+The Daily (News search app)
 
 Overview:-
 This is a simple web application that allows users to search for news articles using keywords. It fetches data from the News API and displays the search results to the user.
