@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohd Arish Siddiqui</h1>
-<h2 align="center" font-style= "bold">The Daily (News search app)</h2>
+<h2 align="left" font-style= "bold">The Daily (News search app)</h2>
 <h3 align="left" font-style= "bold">Overview:- </h3>This is a simple web application that allows users to search for news articles using keywords. It fetches data from the News API and displays the search results to the user. 
 <h3 align="left" font-style= "bold">Features:- </h3> Search for news articles by entering keywords. View a list of latest 12 news articles matching the search query. Click on an article to view more details, including the title, description, and image.
   
