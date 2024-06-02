@@ -5,7 +5,7 @@
   
 <h3 align="left" font-style= "bold">How to Use:- </h3> Enter keywords related to the news articles you want to search for, in the search bar. Press Enter or click on the search button to initiate the search. View the search results displayed on the page and you can click on a news article to read more about it.</h3>
 
-<h3 align="left">NOTE:-Its not hosted as News API is not free</h3>
+<h3 align="left">NOTE:- Its not hosted as News API is not free</h3>
 <p align="left">
 </p>
 
